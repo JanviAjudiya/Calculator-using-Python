@@ -21,7 +21,7 @@ class GUI(QMainWindow):
 
         # Set the central widget and the general layout
         self.generalLayout = QVBoxLayout()
-
+        
         # Set the central widget
         self._centralWidget = QWidget(self)
         self.setCentralWidget(self._centralWidget)
