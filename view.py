@@ -12,7 +12,7 @@ class GUI(QMainWindow):
     """PyCalc's View (GUI)."""
 
     def __init__(self):
-        
+        """View initializer."""
         super().__init__()
 
         # Set some main window's properties
